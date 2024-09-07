@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #c8f2f0;
+    background: radial-gradient(#c8f2f0, #000000);
     color: #333;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 .container {
     max-width: 900px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 20px;
     background-color: #ffffff;
     border: 5px solid #0e345d;
@@ -22,22 +22,27 @@ body {
     border-bottom: 2px solid #2055db;
     margin-bottom: 20px;
 }
-
+    
 .header h1 {
-    font-size: 2.5em;
+    display: inline-block;
+    font-size: 3em;
     color: #3eb489;
     margin: 0;
 }
+.header .dehesa{
+    color: #2a2a2b;
+}
 
 .header p {
-    font-size: 1.5em;
-    color: #555;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #0d4785;
     margin: 0;
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     margin-top: 15px;
     border: 5px solid #3eb489;
@@ -60,6 +65,7 @@ h2 {
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
+    text-align: center;
 }
 
 section {
